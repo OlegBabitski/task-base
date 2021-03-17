@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int numberOne = 0, numberTwo = 0, i = 0, result = 0;
+    int numberOne = 0, numberTwo = 0, num = 1;
 
     while(true){
         cout << "Entered first number:";
@@ -26,17 +26,19 @@ int main(){
     }
     
     if (numberOne > numberTwo){
-        i = numberOne;
+        num = numberOne;
     } else{
-        i = numberTwo;
+        num = numberTwo;
     }
 
-    for (; ; i++){
-        if (i % numberOne == 0 and i % numberTwo == 0){
-            cout << "Least common multiple equals " << i;
+    while (true){
+    	num++;
+    	
+        if (num % numberOne == 0 and num % numberTwo == 0){
+            cout << "Least common multiple equals " << num;
+            
             break;
         }
-    }
-    
+	}
     return 0;
 }
