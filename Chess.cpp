@@ -6,6 +6,7 @@ int main(){
     int xOne = 0, xTwo = 0, yOne = 0, yTwo = 0;
 
     cout << "Enter the coordinates of the first shape" << endl;
+    
     while(true){
         cout << "Enter the X coordinate : ";
         cin >> xOne;
@@ -28,6 +29,7 @@ int main(){
     }
 
     cout << "Enter the coordinates of the second shape" << endl;
+    
     while(true){
         while(true){
             cout << "Enter the X coordinate : ";
