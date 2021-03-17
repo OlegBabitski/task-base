@@ -10,6 +10,7 @@ int main(){
         while(true){
             cout << "Entered the side -a- :";
             cin >> a;
+            
             if(a > 0){
                 break;
             }else{
@@ -19,6 +20,7 @@ int main(){
         while(true){
             cout << "Entered the side -b- :";
             cin >> b;
+            
             if(b > 0){
                 break;
             }else{
@@ -28,6 +30,7 @@ int main(){
         while(true){
             cout << "Entered the side -c- :";
             cin >> c;
+            
             if(c > 0){
                 break;
             }else{
@@ -37,6 +40,7 @@ int main(){
 
         if((a + b) > c and (a + c) > b and (c + b) > a){
             cout << "Great, such a triangle can exist." << endl;
+            
             break;
         }else{
             cout << "Such a triangle cannot exist. Try entering other values." << endl;
